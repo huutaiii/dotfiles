@@ -1,0 +1,70 @@
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+URxvt.secondaryWheel: 1
+URxvt.font: xft:monospace:size=9, xft:Wuncon Siji:size=10
+URxvt.depth: 32
+URxvt.background: [80]#202629
+URxvt.foreground: #f0f0f0
+URxvt.internalBorder: 20
+URxvt.scrollBar: false
+URxvt.saveLines: 10000
+!URxvt*skipBuiltinGlyphs: true
+
+! Black + DarkGrey
+!URxvt.color0:  #000000
+!URxvt.color8:  #767676
+! DarkRed + Red
+URxvt.color1:  #B32D47
+URxvt.color9:  #CC3451
+! DarkGreen + Green
+URxvt.color2:  #2DB398
+URxvt.color10: #34CCAD
+! DarkYellow + Yellow
+URxvt.color3:  #9AB32D
+URxvt.color11: #B0CC34
+! DarkBlue + Blue
+URxvt.color4:  #2D33B3
+URxvt.color12: #343BCC
+! DarkMagenta + Magenta
+URxvt.color5:  #A02DB3
+URxvt.color13: #B734CC
+!DarkCyan + Cyan (both not tango)
+URxvt.color6:  #2F84BD
+URxvt.color14: #3796D6
+
+
+! LightGrey + White
+!URxvt.color7:  #dddddd
+!URxvt.color15: #ffffff
+! Black + DarkGrey
+!*color0:  #000000
+!URxvt.color8:  #767676
+! DarkRed + Red
+!URxvt.color1:  #D94163
+!URxvt.color9:  #F2496F
+! DarkGreen + Green
+!URxvt.color2:  #39D95B
+!URxvt.color10: #40F567
+! DarkYellow + Yellow
+!URxvt.color3:  #CFD437
+!URxvt.color11: #E8ED3E
+! DarkBlue + Blue
+!URxvt.color4:  #4155D9
+!URxvt.color12: #495FF2
+! DarkMagenta + Magenta
+!URxvt.color5:  #AF41D9
+!URxvt.color13: #C349F2
+!DarkCyan + Cyan (both not tango)
+!URxvt.color6:  #3DAEE9
+!URxvt.color14: #43BEFF
+! LightGrey + White
+!URxvt.color7:  #dddddd
+!URxvt.color15: #ffffff
+
+URxvt.keysym.Control-Up:     \033[1;5A
+URxvt.keysym.Control-Down:   \033[1;5B
+URxvt.keysym.Control-Left:   \033[1;5D
+URxvt.keysym.Control-Right:  \033[1;5C

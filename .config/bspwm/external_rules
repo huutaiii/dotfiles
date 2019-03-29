@@ -1,0 +1,22 @@
+#! /bin/dash
+
+fwid=$(bspc query -N -n focused.automatic)
+wid=$1
+class=$2
+instance=$3
+
+# if [ -n "$fwid" ] ; then
+# 	wattr wh $fwid | {
+# 		read width height
+# 		if [ $width -gt $height ] ; then
+# 			echo "split_dir=west"
+# 		else
+# 			echo "split_dir=south"
+# 		fi
+# 	}
+# fi
+
+if [ "$(xtitle $wid)" = "Task Manager - Chromium" ]
+then
+	echo "state=floating"
+fi

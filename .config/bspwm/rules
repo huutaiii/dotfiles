@@ -1,0 +1,19 @@
+bspc rule -a Xfce4-panel state=floating
+bspc rule -a Wrapper-1.0 state=floating
+bspc rule -a Viewnior state=floating center=true
+bspc rule -a Gnome-mpv state=floating
+bspc rule -a Lxappearance state=floating
+bspc rule -a Pavucontrol state=floating
+bspc rule -a termfloat state=floating
+bspc rule -a Nm-connection-editor state=floating
+bspc rule -a Gucharmap state=floating
+bspc rule -a Wine state=floating
+bspc rule -a URxvt:float state=floating
+bspc rule -a mpv state=floating
+bspc rule -a Lightdm-gtk-greeter-settings state=floating
+bspc rule -a Alacritty rectangle=0x0+420+220
+bspc rule -a Alacritty:float state=floating
+bspc rule -a Gksu-properties state=floating
+bspc rule -a SimpleScreenRecorder state=floating
+bspc rule -a Qemu-system-x86_64 state=floating
+bspc rule -a PPSSPPSDL state=floating
